@@ -17,8 +17,8 @@ public class MazeGenerator : MonoBehaviour
     Dictionary<Vector2, int> cell_walls = new Dictionary<Vector2, int>();
 
     float tile_size = 10;
-    int width = 10;   // Width of map  
-    int height = 10;  // Height of map
+    int width = 15;   // Width of map  
+    int height = 8;  // Height of map
 
     List<List<int>> map = new List<List<int>>();
 
